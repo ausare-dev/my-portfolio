@@ -13,8 +13,8 @@ const Nav = ({openNav}:Props) => {
 
         </h1>
         <div className='nav-link'>HOME</div>
-        <div className='nav-link'>SERVICES</div>
         <div className='nav-link'>ABOUT</div>
+        <div className='nav-link'>STACK</div>
         <div className='nav-link'>PROJECT</div>
         <div className='nav-link'>CONTACT</div>
         <div onClick={openNav}>

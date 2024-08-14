@@ -3,8 +3,7 @@ import Hero from '@/components/Hero'
 import MobileNav from '@/components/MobileNav'
 import Nav from '@/components/Nav'
 import Projects from '@/components/Projects'
-import Services from '@/components/Services'
-import Skills from '@/components/Skills'
+import Stack from '@/components/Stack';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styl
 import React, { useEffect, useState } from 'react'
@@ -44,27 +43,25 @@ const HomePage = () => {
   },[])
 
   return (
-    <div className='overflow-x-hidden'>
-      <div>
-        <MobileNav nav={nav} closeNav={closeNav}/>
-        <Nav openNav={openNav}/>
+		<div className='overflow-x-hidden'>
+			<div>
+				<MobileNav nav={nav} closeNav={closeNav} />
+				<Nav openNav={openNav} />
 
-        <Hero />
+				<Hero />
 
-        <div className='relative z-[52]'>
-          <About />
+				<div className='relative z-[52]'>
+					<About />
 
-          <Services />
+					<Stack />
 
-          <Skills />
+					<Projects />
 
-          <Projects />
-
-          <Footer />
-        </div>
-      </div>
-    </div>
-  )
+					<Footer />
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default HomePage

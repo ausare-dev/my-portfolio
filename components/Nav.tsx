@@ -12,11 +12,13 @@ const Nav = ({openNav}:Props) => {
             <span className='text-yellow-300'>DEV</span>
 
         </h1>
-        <div className='nav-link'>HOME</div>
-        <div className='nav-link'>ABOUT</div>
-        <div className='nav-link'>STACK</div>
-        <div className='nav-link'>PROJECT</div>
-        <div className='nav-link'>CONTACT</div>
+        <a href='#hero' className='nav-link'>HOME</a>
+        <a href='#about' className='nav-link'>ABOUT</a>
+        <a href='#stack' className='nav-link'>STACK</a>
+        <a href='#projects' className='nav-link'>PROJECT</a>
+        <a href='#contact' className='nav-link'>CONTACT</a>
+
+        
         <div onClick={openNav}>
             <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300 '/>
         </div>

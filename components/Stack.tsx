@@ -7,7 +7,7 @@ import React from 'react';
 
 const Stack = () => {
 	return (
-		<div className='bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+		<div id='stack' className='bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
 			<p className='heading'>
 				My <span className='text-yellow-400'>Stack</span>
 			</p>
@@ -31,8 +31,7 @@ const Stack = () => {
 							Backend
 						</h1>
 						<p className='text-[15px] text-[#d3d2d2] font-normal'>
-							NextJs, React, TypeScript, JavaScript, Scss, TailwindCss, Css,
-							Html, Php
+							Python, NodeJs, Php 
 						</p>
 					</div>
 				</div>

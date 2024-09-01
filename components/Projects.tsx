@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-		<div className='bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
+		<div id='projects' className='bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
 			<h1 className='heading'>
 				Pro<span className='text-yellow-400'>Jects</span>
 			</h1>
@@ -11,7 +11,7 @@ const Projects = () => {
 				<div data-aos='fade-up'>
 					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
 						<Image
-							src='/images/p1.jpg'
+							src='/images/webstudio.png'
 							alt='portfolio'
 							layout='fill'
 							className='object-contain'
